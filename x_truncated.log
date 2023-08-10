@@ -1,0 +1,100 @@
+[    16.940] (--) Log file renamed from "/var/log/Xorg.pid-849.log" to "/var/log/Xorg.0.log"
+[    16.942] 
+X.Org X Server 1.21.1.8
+X Protocol Version 11, Revision 0
+[    16.942] Current Operating System: Linux manjaro 6.1.30-1-MANJARO #1 SMP PREEMPT_DYNAMIC Wed May 24 22:51:44 UTC 2023 x86_64
+[    16.942] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-x86_64 lang=en_US keytable=us tz=UTC misobasedir=manjaro misolabel=MANJARO_KDE_2213 quiet systemd.show_status=1 splash driver=free nouveau.modeset=1 i915.modeset=1 radeon.modeset=1
+[    16.942]  
+[    16.942] Current version of pixman: 0.42.2
+[    16.942] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    16.942] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    16.942] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Aug  9 15:11:02 2023
+[    16.943] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    16.943] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    16.944] (==) No Layout section.  Using the first Screen section.
+[    16.944] (==) No screen section available. Using defaults.
+[    16.944] (**) |-->Screen "Default Screen Section" (0)
+[    16.944] (**) |   |-->Monitor "<default monitor>"
+[    16.944] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    16.944] (==) Automatically adding devices
+[    16.944] (==) Automatically enabling devices
+[    16.944] (==) Automatically adding GPU devices
+[    16.944] (==) Automatically binding GPU devices
+[    16.945] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    16.948] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[    16.948] 	Entry deleted from font path.
+[    16.948] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    16.948] 	Entry deleted from font path.
+[    16.948] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[    16.948] 	Entry deleted from font path.
+[    16.948] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[    16.948] 	Entry deleted from font path.
+[    16.948] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF
+[    16.948] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    16.948] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    16.948] (II) Module ABI versions:
+[    16.948] 	X.Org ANSI C Emulation: 0.4
+[    16.948] 	X.Org Video Driver: 25.2
+[    16.948] 	X.Org XInput driver : 24.4
+[    16.948] 	X.Org Server Extension : 10.0
+[    16.948] (++) using VT number 1
+
+[    16.948] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    16.949] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    16.949] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[    16.950] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[    16.950] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    16.950] (II) LoadModule: "glx"
+[    16.951] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    16.953] (II) Module glx: vendor="X.Org Foundation"
+[    16.953] 	compiled for 1.21.1.8, module version = 1.0.0
+[    16.953] 	ABI class: X.Org Server Extension, version 10.0
+[    16.953] (==) Matched vmware as autoconfigured driver 0
+[    16.953] (==) Matched modesetting as autoconfigured driver 1
+[    16.953] (==) Matched fbdev as autoconfigured driver 2
+[    16.953] (==) Matched vesa as autoconfigured driver 3
+[    16.953] (==) Assigned the driver to the xf86ConfigLayout
+[    16.953] (II) LoadModule: "vmware"
+[    16.953] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[    17.133] (II) Module vmware: vendor="X.Org Foundation"
+[    17.133] 	compiled for 1.21.1.6, module version = 13.4.0
+[    17.133] 	Module class: X.Org Video Driver
+[    17.133] 	ABI class: X.Org Video Driver, version 25.2
+[    17.133] (II) LoadModule: "modesetting"
+[    17.133] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    17.134] (II) Module modesetting: vendor="X.Org Foundation"
+[    17.134] 	compiled for 1.21.1.8, module version = 1.21.1
+[    17.134] 	Module class: X.Org Video Driver
+[    17.134] 	ABI class: X.Org Video Driver, version 25.2
+[    17.134] (II) LoadModule: "fbdev"
+[    17.134] (WW) Warning, couldn't open module fbdev
+[    17.134] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    17.134] (II) LoadModule: "vesa"
+[    17.134] (WW) Warning, couldn't open module vesa
+[    17.134] (EE) Failed to load module "vesa" (module does not exist, 0)
+[    17.134] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[    17.134] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    17.134] (WW) Falling back to old probe method for modesetting
+[    17.134] (II) vmware(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    17.134] (--) vmware(0): DRM driver version is 2.20.0
+[    17.134] (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+[    17.134] (==) vmware(0): RGB weight 888
+[    17.134] (==) vmware(0): Default visual is TrueColor
+[    17.134] (--) vmware(0): Min width 1, Max Width 8192.
+[    17.134] (--) vmware(0): Min height 1, Max Height 8192.
+[    17.134] (II) vmware(0): Output Virtual1 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual2 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual3 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual4 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual5 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual6 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual7 has no monitor section
+[    17.134] (II) vmware(0): Output Virtual8 has no monitor section
